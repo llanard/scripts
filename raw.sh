@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# add raw_storage_endpoint = "true" in all your vault config files and reload/restart vault service
+
 # Set Vault token and address
 VAULT_ADDR="http://127.0.0.1:8200"
 VAULT_TOKEN="<token>"
